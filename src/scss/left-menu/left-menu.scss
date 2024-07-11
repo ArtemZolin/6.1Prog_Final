@@ -1,4 +1,3 @@
-html{
 .buttons--cross {
   background-image: url(/src/img/4.1/background/cross.png);
 }
@@ -17,6 +16,7 @@ html{
     top: 0px;
     z-index: 2;
     background-color: #FFFFFF;
+    
 
   
 
@@ -95,7 +95,8 @@ html{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    /*margin-top: auto;*/
+    //margin-top: auto;
+    
     
     .left-menu__buttons {
       display: flex;
@@ -141,4 +142,4 @@ html{
   .left-menu-hidden{
     display: none;
   }
-}
+

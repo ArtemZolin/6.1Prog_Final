@@ -8,6 +8,7 @@
 html {
   font-family: 'TT Lakes', sans-serif;
   min-width: 320px;
+}
   .round-icon-tablet {
     display: none;
 
@@ -165,8 +166,8 @@ html {
     .block-1__box {
       display: flex;
       flex-direction: column;
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
 
       .block-1__text {
         height: 15vh;
@@ -197,4 +198,4 @@ html {
       // }
     }
   }
-}
+

@@ -1,13 +1,8 @@
-html{
-  main{
-  
     .prices-services {
-      //height: 584px;
       background: #f8f8f8;
+      height: 634px;
       width: 100%;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-bottom: 20px;
+     
   
       .header-prices-services  {
         height: 80px;
@@ -15,6 +10,7 @@ html{
         display: flex;
         align-items: center;
         background: linear-gradient(to right, #f8f8f8, #ffffff);
+        padding-left: 20px;
 
         .header-prices-services__title {
           text-transform: uppercase;
@@ -25,11 +21,12 @@ html{
       }
 
       .services {
-        width: 100%;
         overflow: hidden;
+        padding-top: 20px;
+        height: 304px;
 
         .services-list {
-          height: 300px;
+          padding-top: 20px;
         
           .price-items {
             height: auto;
@@ -39,8 +36,6 @@ html{
             padding: 16px;
             background-color: #FFFFFF;
             border-radius: 6px;
-            //border-bottom: 1px solid black;
-            //align-content: center;
             grid-template-columns: 128px 100px ;
             grid-template-rows: 24px;
             grid-template-areas: 
@@ -109,22 +104,35 @@ html{
                   height: 32px;
                 }
               }
-        } 
+        }
+        .swiper-pagination-bullet {
+          background: #b5b6bc;
+          width: 12px;
+          height: 12px;
+        }
+        
+        .swiper-pagination {
+          bottom: -470px;
+         }
       }
 
       .prices-services-text{
         padding-bottom: 10px;
+        padding-left: 20px;
       }
 
       .offer__button {
+        display: inline-block;
         width: 192px;
         height: 55px;
         font-size: 16px;
         font-weight: 500;
         text-align: left;
+        padding-left: 20px;
         
         .offer__button__text {
           font-size: 14px;
+          
         }
 
         .offer__button--style {
@@ -138,5 +146,4 @@ html{
         }
       }
     }
-  }
-}
+  

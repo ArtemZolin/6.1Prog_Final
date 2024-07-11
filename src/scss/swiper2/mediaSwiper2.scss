@@ -1,19 +1,16 @@
 @media (min-width:768px) {
     html{
-        main{
-            .services-software{
+        main {
+            .repair-equipment{
                 padding-left: 24px;
                 padding-bottom: 24px;
                 height: 322px;
     
-                .header-services-software{
+                .header-repair-equipment{
                     padding-left: 0;
-                    height: 56px;
-    
-                
-                    
+                    height: 56px;    
                 }
-                .repair{
+                .repair {
                    
                     padding-top: 24px;
     
@@ -25,59 +22,48 @@
                         overflow: hidden;
                         height: 180px;
                         
-    
                         .repair-list__item{
                             width: 224px;
                            
-    
                             .repair-list__link{
                                 background-position: 170px 100px;
-                                width: 224px;
-                                
+                                width: 224px;  
                             } 
                         }
-    
                     }
-                   
                 }
-                .repair__button{
+                .repair-button {
                     display: flex;
                 }
-                
-    
             }
         }
     }
-    }
-    @media (min-width:1120px) {
-    html{
-        main{
-            .services-software{
-                padding-left: 32px;
-    
-                
-                .repair{
-                    padding-right: 32px;
-    
-                    .repair-list{
-                        column-gap: 32px;
-    
-                        .repair-list__item{
+}
+
+@media (min-width:1120px) {
+html{
+    main{
+        .repair-equipment{
+            padding-left: 32px;
+
+            
+            .repair{
+                padding-right: 32px;
+
+                .repair-list{
+                    column-gap: 32px;
+
+                    .repair-list__item{
+                        width: 240px;
+                        
+                        .repair-list__link{
+                            background-position: 180px 100px;
                             width: 240px;
-                            
-    
-                           .repair-list__link{
-                                background-position: 180px 100px;
-                                width: 240px;
-                           } 
-                        }
-    
+                        } 
                     }
-                   
                 }
-                
-               
             }
         }
     }
-    }
+}
+}
