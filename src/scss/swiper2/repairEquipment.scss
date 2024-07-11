@@ -1,0 +1,50 @@
+html{
+  main{
+
+.repairEquipment {
+  height: 284px;
+  .header-repairEquipmen {
+    .header-repairEquipmen__title {
+    }
+  }
+  .repair {
+    padding-top: 20px;
+
+    .repair-list {
+      display: flex;
+      height: 170px;
+      min-width: 0;
+
+      .repair-list__item {
+        width: 240px;
+        height: 160px ;
+
+        .repair-list__link {
+          display: flex;
+          align-items: start;
+          border: 1px solid #eaeaea;
+          background-image: url(/src/img/5.1/background/go.png);
+          background-repeat: no-repeat;
+          background-position: 180px 100px;
+          width: 240px;
+          height: 160px ;
+          padding: 16px;
+          border-radius: 10px;
+          background-color: #ffffff;
+          box-sizing: border-box;
+          min-width: 0;
+          font-weight: 16px;
+          color: #1B1C21;
+        }
+      }
+    }
+  }
+  .repai__button {
+    .repai__button--style {
+    }
+    .repai__button__text {
+    }
+  }
+}
+}
+}

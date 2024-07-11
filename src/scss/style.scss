@@ -1,0 +1,36 @@
+@import 'normalize';
+
+@import 'proj3.1/proj3', 'proj3.1/media3';
+@import 'left-menu/left-menu.scss', 'left-menu/mediaLeft-menu.scss';
+@import 'proj5.1/proj5', 'proj5.1/media5';
+@import 'swiper2/repairEquipment.scss' , 'swiper2/mediaSwiper2.scss';
+@import 'swiper3/pricesServices.scss', 'swiper3/mediaSwiper3.scss';
+@import 'footer';
+@import 'right-menu-call/right-menu-call.scss', 'right-menu-call/mediaRight-menu-call.scss';
+@import 'right-menu-feedback/right-menu-feedback.scss','right-menu-feedback/mediaRight-menu-feedback.scss';
+
+//font/TTLakes-Regular.woff
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Regular.woff') format(woff);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Bold.woff') format(woff);
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-DemiBold.woff') format(woff);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
