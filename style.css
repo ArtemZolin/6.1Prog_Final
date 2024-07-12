@@ -278,7 +278,7 @@ html {
       text-align: left;
       padding: 0; }
       .block-1 .block-1__box .block-1-button-read .block-1-button-read__style {
-        background: url(/src/img/5.1/background/expand.png);
+        background: url(./static/expand.png);
         background-repeat: no-repeat;
         width: 24px;
         height: 24px;
@@ -530,7 +530,8 @@ html {
       width: 12px;
       height: 12px; }
     .services-software .brands .swiper-pagination {
-      top: 120px; }
+      top: 120px;
+      z-index: 0; }
   .services-software .brands__button {
     display: none;
     width: 134px;
@@ -540,7 +541,7 @@ html {
     text-align: left;
     padding: 0; }
   .services-software .button-read .brands__button__style {
-    background: url(/src/img/5.1/background/expand.png);
+    background: url(./static/expand.png);
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
@@ -625,7 +626,7 @@ html {
           display: flex;
           align-items: start;
           border: 1px solid #eaeaea;
-          background-image: url(/src/img/5.1/background/go.png);
+          background-image: url(./static/go.png);
           background-repeat: no-repeat;
           background-position: 180px 100px;
           width: 240px;
@@ -642,7 +643,8 @@ html {
       width: 12px;
       height: 12px; }
     .repair-equipment .repair .swiper-pagination {
-      top: 205px; }
+      top: 205px;
+      z-index: 0; }
   .repair-equipment .repair-button {
     display: none;
     width: 134px;
@@ -652,7 +654,7 @@ html {
     text-align: left;
     padding: 0; }
     .repair-equipment .repair-button .repair-button-style {
-      background: url(/src/img/5.1/background/expand.png);
+      background: url(./static/expand.png);
       background-repeat: no-repeat;
       width: 24px;
       height: 24px;
@@ -770,7 +772,7 @@ html {
       .prices-services .services .services-list .price-lnk a {
         display: inline-block;
         padding: 0;
-        background-image: url(/dist/img/6.1/background/order.png);
+        background-image: url(./static/order.png);
         width: 119px;
         height: 32px; }
     .prices-services .services .swiper-pagination-bullet {
@@ -778,7 +780,8 @@ html {
       width: 12px;
       height: 12px; }
     .prices-services .services .swiper-pagination {
-      top: 260px; }
+      top: 260px;
+      z-index: 0; }
   .prices-services .prices-services-text {
     padding-bottom: 10px;
     padding-left: 24px;
@@ -797,7 +800,7 @@ html {
       display: inline-block;
       position: relative;
       top: 10px;
-      background: url(/src/img/6.1/background/more.png);
+      background: url(./static/more.png);
       background-repeat: no-repeat;
       width: 24px;
       height: 27px; }
@@ -953,7 +956,7 @@ html {
       display: inline-block;
       width: 136px;
       height: 32px;
-      background-image: url(/src/img/6.1/background/send.png);
+      background-image: url(./static/send.png);
       background-repeat: no-repeat;
       align-self: end; }
 
@@ -1029,7 +1032,7 @@ html {
       display: inline-block;
       width: 136px;
       height: 32px;
-      background-image: url(/src/img/6.1/background/send.png);
+      background-image: url(./static/send.png);
       background-repeat: no-repeat;
       align-self: end; }
 
