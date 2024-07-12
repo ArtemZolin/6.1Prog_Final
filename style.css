@@ -361,7 +361,7 @@ html {
     padding-left: 32px; } }
 
 .buttons-cross {
-  background-image: url(/src/img/4.1/background/cross.png); }
+  background-image: url(./static/cross.png); }
 
 .left-menu {
   min-width: 320px;
