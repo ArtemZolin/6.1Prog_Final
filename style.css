@@ -144,16 +144,16 @@ html {
   min-width: 320px; }
 
 .round-icon-call {
-  background-image: url(/src/img/3.1/background/call.png); }
+  background-image: url(./static/call.png); }
 
 .round-icon-chat {
-  background-image: url(/src/img/3.1/background/chat.png); }
+  background-image: url(./static/chat.png); }
 
 .round-icon-profile {
-  background-image: url(/src/img/3.1/background/profile.png); }
+  background-image: url(./static/profile.png); }
 
 .round-icon-tablet-divider-2 {
-  background-image: url(/src/img/3.1/background/divider1.png); }
+  background-image: url(./static/divider1.png); }
 
 .round-icon-tablet {
   display: none; }
@@ -176,7 +176,7 @@ html {
   padding: 15px;
   gap: 1px; }
   .header .round-icon-divider {
-    background-image: url(/src/img/3.1/background/divider.png);
+    background-image: url(./static/divider.png);
     width: 2px;
     height: 32px;
     display: inline-block;
@@ -188,7 +188,7 @@ html {
     width: 100%;
     gap: 10px; }
     .header .round-icon-list-left .round-icon-list-left-burger {
-      background-image: url(/src/img/3.1/background/burger.png); }
+      background-image: url(./static/burger.png); }
   .header .round-icon-list-right {
     display: flex;
     justify-content: end;
@@ -196,9 +196,9 @@ html {
     gap: 10px;
     padding-right: 10px; }
     .header .round-icon-list-right-repair {
-      background-image: url(/src/img/3.1/background/repair.png); }
+      background-image: url(./static/repair.png); }
     .header .round-icon-list-right-checkstatus {
-      background-image: url(/src/img/3.1/background/checkstatus.png); }
+      background-image: url(./static/checkstatus.png); }
 
 .main {
   display: flex;
@@ -214,7 +214,7 @@ html {
       padding-left: 20px;
       font-size: 28px;
       margin: 20px 0;
-      background-image: url(/src/img/3.1/background/highlight.png);
+      background-image: url(./static/highlight.png);
       background-repeat: no-repeat;
       width: 4px;
       height: 40px;
@@ -838,7 +838,7 @@ html {
           content: "";
           z-index: 1;
           position: relative;
-          width: 186%;
+          width: 200%;
           height: 1px;
           top: 16px;
           left: 0px;
