@@ -36,7 +36,7 @@
           display: flex;
           align-items: start;
           border: 1px solid #eaeaea;
-          background-image: url(/src/img/5.1/background/go.png);
+          background-image: url(../img/5.1/background/go.png);
           background-repeat: no-repeat;
           background-position: 180px 100px;
           width: 240px;
@@ -60,6 +60,7 @@
     
       .swiper-pagination {
       top: 205px;
+      z-index:0;
       }
   }
   
@@ -72,7 +73,7 @@
     text-align: left;
     padding: 0;
     .repair-button-style {
-      background: url(/src/img/5.1/background/expand.png);
+      background: url(../img/5.1/background/expand.png);
       background-repeat: no-repeat;
       width: 24px;
       height: 24px;
