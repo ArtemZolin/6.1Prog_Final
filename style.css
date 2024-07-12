@@ -530,7 +530,8 @@ html {
       width: 12px;
       height: 12px; }
     .services-software .brands .swiper-pagination {
-      top: 120px; }
+      top: 120px;
+      z-index: 0; }
   .services-software .brands__button {
     display: none;
     width: 134px;
@@ -642,7 +643,8 @@ html {
       width: 12px;
       height: 12px; }
     .repair-equipment .repair .swiper-pagination {
-      top: 205px; }
+      top: 205px;
+      z-index: 0; }
   .repair-equipment .repair-button {
     display: none;
     width: 134px;
@@ -778,7 +780,8 @@ html {
       width: 12px;
       height: 12px; }
     .prices-services .services .swiper-pagination {
-      top: 260px; }
+      top: 260px;
+      z-index: 0; }
   .prices-services .prices-services-text {
     padding-bottom: 10px;
     padding-left: 24px;
