@@ -361,7 +361,7 @@ html {
     padding-left: 32px; } }
 
 .buttons-cross {
-  background-image: url("/src/img/4.1/background/cross.png"); }
+  background-image: url(/src/img/4.1/background/cross.png); }
 
 .left-menu {
   min-width: 320px;
@@ -530,8 +530,7 @@ html {
       width: 12px;
       height: 12px; }
     .services-software .brands .swiper-pagination {
-      top: 120px;
-      z-index: 0; }
+      top: 120px; }
   .services-software .brands__button {
     display: none;
     width: 134px;
@@ -643,8 +642,7 @@ html {
       width: 12px;
       height: 12px; }
     .repair-equipment .repair .swiper-pagination {
-      top: 205px;
-      z-index: 0; }
+      top: 205px; }
   .repair-equipment .repair-button {
     display: none;
     width: 134px;
@@ -780,8 +778,7 @@ html {
       width: 12px;
       height: 12px; }
     .prices-services .services .swiper-pagination {
-      top: 260px;
-      z-index: 0; }
+      top: 260px; }
   .prices-services .prices-services-text {
     padding-bottom: 10px;
     padding-left: 24px;
