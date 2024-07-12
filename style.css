@@ -515,7 +515,7 @@ html {
           justify-content: start;
           align-items: center;
           border: 1px solid #eaeaea;
-          background-image: url(/src/img/5.1/background/go.png);
+          background-image: url(./static/go.png);
           background-repeat: no-repeat;
           background-position: 180px 15px;
           width: 240px;
