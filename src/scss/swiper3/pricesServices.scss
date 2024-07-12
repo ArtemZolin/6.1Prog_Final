@@ -109,10 +109,12 @@
       background: #b5b6bc;
       width: 12px;
       height: 12px;
+      
     }
     
     .swiper-pagination {
       top: 260px ;
+      z-index: 0;
       }
   }
 

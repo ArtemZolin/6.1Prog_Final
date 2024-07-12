@@ -4,17 +4,17 @@ html {
 }
 
 .round-icon-call {
-  background-image: url(../img/3.1/background/call.png);
+  background-image: url(../../img/background/call.png);
 }
 .round-icon-chat {
-  background-image: url(../img/3.1/background/chat.png);
+  background-image: url(../../img/background/chat.png);
 }
 .round-icon-profile {
-  background-image: url(../img/3.1/background/profile.png);
+  background-image: url(../../img/background/profile.png);
 }
 
 .round-icon-tablet-divider-2 {
-  background-image: url(../img/3.1/background/divider1.png);
+  background-image: url(../../img/background/divider1.png);
 }
 
   .round-icon-tablet {
@@ -44,7 +44,7 @@ html {
 
     
     .round-icon-divider{
-      background-image: url(../img/3.1/background/divider.png);
+      background-image: url(../../img/background/divider.png);
       width: 2px;
       height: 32px;
       display: inline-block;
@@ -59,7 +59,7 @@ html {
       gap: 10px;
 
       .round-icon-list-left-burger {
-        background-image: url(../img/3.1/background/burger.png);
+        background-image: url(../../img/background/burger.png);
       }
 
       
@@ -75,11 +75,11 @@ html {
       padding-right: 10px;
 
       &-repair {
-        background-image: url(../img/3.1/background/repair.png);
+        background-image: url(../../img/background/repair.png);
       }
 
       &-checkstatus {
-        background-image: url(../img/3.1/background/checkstatus.png);
+        background-image: url(../../img/background/checkstatus.png);
       }
     }
   }
@@ -99,7 +99,7 @@ html {
         padding-left: 20px;
         font-size: 28px;
         margin: 20px 0;
-        background-image: url(../img/3.1/background/highlight.png);
+        background-image: url(../../img/background/highlight.png);
         background-repeat: no-repeat;
         width: 4px;
         height: 40px;
@@ -180,7 +180,7 @@ html {
         text-align: left;
         padding: 0;
         .block-1-button-read__style {
-          background: url(/src/img/5.1/background/expand.png);
+          background: url(../../img/background/expand.png);
           background-repeat: no-repeat;
           width: 24px;
           height: 24px;
