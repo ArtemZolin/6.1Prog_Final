@@ -325,7 +325,7 @@ html {
     .main .main-title__page {
       margin-top: 30px;
       padding-left: 20px;
-      background-image: url(/src/img/3.1/background/highlight1.png);
+      background-image: url(./static/highlight1.png);
       width: 3px;
       height: 40px;
       padding-left: 32px; }
@@ -339,7 +339,7 @@ html {
         display: inline-block;
         width: 184px;
         height: 46px;
-        background-image: url(/src/img/3.1/background/repair.png);
+        background-image: url(./static/repair.png);
         background-repeat: no-repeat;
         background-position: right;
         text-align: left;
@@ -348,7 +348,7 @@ html {
         display: inline-block;
         width: 184px;
         height: 46px;
-        background-image: url(/src/img/3.1/background/checkstatus.png);
+        background-image: url(./static/checkstatus.png);
         background-repeat: no-repeat;
         background-position: right;
         text-align: left;
