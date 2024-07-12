@@ -1,69 +1,73 @@
 @media (min-width:768px) {
-    html{
-        main {
-            .repair-equipment{
-                padding-left: 24px;
-                padding-bottom: 24px;
-                height: 322px;
-    
-                .header-repair-equipment{
-                    padding-left: 0;
-                    height: 56px;    
-                }
-                .repair {
-                   
-                    padding-top: 24px;
-    
-                    .repair-list{
-                        flex-wrap: wrap;
-                        justify-content: space-between;
-                        gap:20px;
-                        column-gap: 24px;
-                        overflow: hidden;
-                        height: 180px;
-                        
-                        .repair-list__item{
-                            width: 224px;
-                           
-                            .repair-list__link{
-                                background-position: 170px 100px;
-                                width: 224px;  
-                            } 
-                        }
-                    }
-                }
-                .repair-button {
-                    display: flex;
-                }
+.repair-equipment{
+    padding-bottom: 24px;
+    height: 322px;
+
+    .header-repair-equipment{
+        padding-left: 24px;
+        height: 56px;    
+    }
+    .repair {
+        padding-top: 24px;
+        padding-left: 24px;
+
+        .repair-list{
+            flex-wrap: wrap;
+            justify-content: start;
+            gap:20px;
+            column-gap: 20px;
+            overflow: hidden;
+            height: 180px;
+            
+            .repair-list__item{
+                width: 224px;
+                
+                .repair-list__link{
+                    background-position: 170px 100px;
+                    width: 224px;  
+                } 
             }
         }
     }
+    
+    .repair-button {
+        display: flex;
+        padding-left: 24px;
+        width: auto;
+    }
 }
+}
+ 
 
-@media (min-width:1120px) {
-html{
-    main{
-        .repair-equipment{
-            padding-left: 32px;
 
-            
-            .repair{
-                padding-right: 32px;
+@media (min-width:1440px) {
 
-                .repair-list{
-                    column-gap: 32px;
+.repair-equipment{
+    
+    .header-repair-equipment{
+        padding-left: 32px;  
+    }
 
-                    .repair-list__item{
-                        width: 240px;
-                        
-                        .repair-list__link{
-                            background-position: 180px 100px;
-                            width: 240px;
-                        } 
-                    }
-                }
+    .repair{
+        //padding-right: 32px;
+        padding-left: 32px; 
+
+        .repair-list{
+            column-gap: 32px;
+
+            .repair-list__item{
+                width: 240px;
+                
+                .repair-list__link{
+                    background-position: 180px 100px;
+                    width: 240px;
+                } 
             }
         }
+    }
+    .repair-button {
+        padding-left: 32px;
+
     }
 }
 }

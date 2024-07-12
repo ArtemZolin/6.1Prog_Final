@@ -2,7 +2,7 @@ let block1Button = document.querySelector('.block-1-button-read')
 let block1Box = document.querySelector('.block-1__box')
 let block1ListText = document.querySelector('.block-1-button-read__text')
 let block1Text = document.querySelector('.block-1__text')
-let block1ButtonBefore = document.querySelector('.block-1-button-read--style')
+let block1ButtonBefore = document.querySelector('.block-1-button-read__style')
 block1Button.onclick = function () {
   if (block1ListText.textContent == 'Читать далее') {
     block1ListText.textContent = 'Скрыть'

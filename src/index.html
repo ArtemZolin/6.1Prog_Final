@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" >
    
-    <title>Document</title>
+    <title>Webpack evil</title>
   </head>
   <body>
     <div class="desk">
@@ -13,54 +13,51 @@
       <div class="round-icon-list-left">
         <!--значок меню ссылка -->
         <button
-          class="round-icon round-icon-list-left--burger"
+          class="round-icon round-icon-list-left-burger"
           type="button"
         >
         </button>
         <!--значок логотипа ссылка -->
         <a href="#">
-          <img class="logo__image" src="img/3.1/img/Group.png" alt="logo" />
+          <img class="logo__image" src="img/3.1/img/Group.png" alt="logo" >
         </a>
         <!--значок серая палка (только на планшете) -->
-        <span class="round-icon-list-left--divider-1"> </span>
+        <span class="round-icon-divider round-icon-divider-1"> </span>
       </div>
 
       <div class="round-icon-tablet">
         <!--значок трубки (только на планшете) -->
         <button
-          class="round-icon round-icon-tablet--call"
+          class="round-icon round-icon-call"
           type="button"
         >
         </button>
         <!--значок сообщений (только на планшете) -->
         <button
-          class="round-icon round-icon-tablet--chat"
+          class="round-icon round-icon-chat"
           type="button"
         >
         </button>
         <!--значок контактов (только на планшете) -->
-        <a class="round-icon round-icon-link round-icon-tablet--profile left-menu__buttons--profile" href="#"> </a>
+        <a class="round-icon round-icon-link round-icon-profile" href="#"> </a>
         <!--значок серая палка  -->
-        <span class="round-icon-divider round-icon-tablet--divider-2"> </span>
+        <span class="round-icon-divider "> </span>
       </div>
 
       <div class="round-icon-list-right">
         
         <!--значок оставить заявку  -->
-        <a class="round-icon round-icon-list-right--repair" href="#"> </a>
+        <a class="round-icon round-icon-list-right-repair" href="#"> </a>
         <!--значок статус  -->
-        <a class="round-icon round-icon-list-right--checkstatus" href="#">
+        <a class="round-icon round-icon-list-right-checkstatus" href="#">
         </a>
       </div>
 
     </header>
 
-
     <main class="main">
-
-      
-      
-      <!---------------основная информация из 3.1 ------------ -->
+   
+      <!--                основная информация из 3.1               -->
       <div class="main-title">
         <h1 class="main-title__page">Услуги и сервисы</h1>
 
@@ -107,13 +104,13 @@
           </li>
         </ul>
       </nav>
-      <section class="block-1">
+      <div class="block-1">
         <!--Картинка   -->
         <img
           class="block-1__image"
-          src="img/3.1/img/Picture Copy.png"
+          src="img/3.1/img/PictureCopy.png"
           alt="Picture"
-        />
+        >
         <!--кнопка + тест-->
         <div class="block-1__box">
           <!--текс  -->
@@ -132,12 +129,12 @@
           </div>
           <!--кнопка читать далее  -->
           <button class="block-1-button-read" type="button">
-            <div class=" block-1-button-read--style"></div>
+            <picture class="block-1-button-read__style"></picture>
             <span class="block-1-button-read__text">Читать далее</span>
         </button>
 
         </div>
-      </section>
+      </div>
 
 
       <!--Prog 5.1 -->
@@ -149,37 +146,37 @@
         <nav class="swiper brands" data-mobile = "false"> 
             <ul class="swiper-wrapper brands-list">
                 <li class="swiper-slide brands-list__item">
-                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/Lenovo.png"></a>
+                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/Lenovo.png" alt="brends-Lenovo"></a>
                 </li>  
                 <li class="swiper-slide brands-list__item">
-                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/Samsung.png"></a>
+                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/Samsung.png" alt="brends-Samsung"></a>
                 </li> 
                 <li class="swiper-slide brands-list__item">
-                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/apple.png"></a>
+                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/apple.png" alt="brends-apple"></a>
                 </li>  
                 <li class="swiper-slide brands-list__item">
-                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/ViewSonic.png"></a>
+                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/ViewSonic.png" alt="brends-ViewSonic"></a>
                 </li>  
                 <li class="swiper-slide brands-list__item">
-                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/bosch.png"></a>
+                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/bosch.png" alt="brends-bosch"></a>
                 </li>  
                 <li class="swiper-slide brands-list__item">
-                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/hp.png"></a>
+                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/hp.png" alt="brends-hp"></a>
                 </li>  
                 <li class="swiper-slide brands-list__item">
-                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/acer.png"></a>
+                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/acer.png" alt="brends-acer"></a>
                 </li>  
                 <li class="swiper-slide brands-list__item">
-                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/sony.png"></a>
+                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/sony.png" alt="brends-sony"></a>
                 </li>  
                 <li class="swiper-slide brands-list__item">
-                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/Lenovo.png"></a>
+                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/Lenovo.png" alt="brends-Lenovo"></a>
                 </li>  
                 <li class="swiper-slide brands-list__item">
-                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/Samsung.png"></a>
+                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/Samsung.png" alt="brends-Samsung"></a>
                 </li> 
                 <li class="swiper-slide brands-list__item">
-                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/apple.png"></a>
+                    <a class="brands-list__link" href="#"><img src="img/5.1/brends/apple.png" alt="brends-apple"></a>
                 </li>  
             </ul>
             <div class="swiper-pagination"></div>  
@@ -188,7 +185,7 @@
                 
         </nav>
         <button class="brands__button button-read" type="button">
-            <div class="brands__button--style"></div>
+            <div class="brands__button__style"></div>
             <span class="brands__button__text">Показать все</span>
         </button>
       </section>
@@ -216,7 +213,7 @@
             <div class="swiper-pagination"></div>           
         </nav>
         <button class="repair-button button-read" type="button">
-            <div class="repair-button--style"></div>
+            <div class="repair-button-style"></div>
             <span class="repair-button__text">Показать все</span>
         </button>
       </section>
@@ -252,7 +249,7 @@
                           <li class="serv-cat">Ремонтные услуги</li>
                           <li class="serv-cat-item">Замена дисплея</li>
                           <li class="price">Цена</li>
-                          <li class="price-item">1000&#8381</li>
+                          <li class="price-item">1000&#8381;</li>
                           <li class="time">Срок</li>
                           <li class="time-item"><div>30мин</div><a href=""></a></li> 
                           <li class="price-lnk"><a href=""></a></li>      
@@ -262,7 +259,7 @@
                           <li class="serv-cat">Ремонтные услуги</li>
                           <li class="serv-cat-item">Замена полифонического динамика</li>
                           <li class="price">Цена</li>
-                          <li class="price-item">1000&#8381</li>
+                          <li class="price-item">1000&#8381;</li>
                           <li class="time">Срок</li>
                           <li class="time-item">30-120мин</li>
                           <li class="price-lnk"><a href=""></a></li>         
@@ -272,7 +269,7 @@
                           <li class="serv-cat">Ремонтные услуги</li>
                           <li class="serv-cat-item">Тестирование с выдачей технического заключения</li>
                           <li class="price">Цена</li>
-                          <li class="price-item">1000&#8381</li>
+                          <li class="price-item">1000&#8381;</li>
                           <li class="time">Срок</li>
                           <li class="time-item">30-120мин</li> 
                           <li class="price-lnk"><a href=""></a></li>       
@@ -282,7 +279,7 @@
                           <li class="serv-cat">Ремонтные услуги</li>
                           <li class="serv-cat-item">Замена программного обеспечения</li>
                           <li class="price">Цена</li>
-                          <li class="price-item">1000&#8381</li>
+                          <li class="price-item">1000&#8381;</li>
                           <li class="time">Срок</li>
                           <li class="time-item">30-120мин</li>  
                           <li class="price-lnk"><a href=""></a></li>      
@@ -292,18 +289,18 @@
                       
               
             </nav>
-        <div>
+        
         <div class="prices-services-text">
           Все цены указаны с учетом НДС. 
           Стоимость ремонта указана на единичную услугу.
            Для получения коммерческого предложения на постоянное обслуживание, 
            оставьте заявку.
         </div>
-        <a class="offer__button button-read" href="#">
-            <span class="offer__button__text">Получить коммерческое предложение</span>
-            <div class="offer__button--style"></div>
+        <a class="offer-link button-read" href="#">
+            <span class="offer-link-text">Получить коммерческое предложение</span>
+            <div class="offer-link-style"></div>
         </a>
-        </div>
+        
       </section>
     </main>
     <footer class="footer">
@@ -317,20 +314,20 @@
     </footer>
   </div>
     <div  class="non non-hidden" ></div>
-    <!---------------левое меню ------------ -->
+    <!--.....................левое меню....................... -->
     <aside class="left-menu left-menu-hidden ">
      
       <header class="header-left-menu">
           <div class="left-menu__buttons">
               <!--значок крестика -->  
-              <button  class="round-icon left-menu__icon  buttons--cross" type="button">  
+              <button  class="round-icon left-menu__icon  buttons-cross" type="button">  
               </button>
               <!--значок логотипа ссылка -->  
               <a  href="#">
                 <img class="logo-image" src="img/4.1/img/Group.png" alt="logo">
               </a>
               <!--значок лупа) -->  
-              <button  class="round-icon left-menu__icon  left-menu__buttons--search" type="button">  
+              <button  class="round-icon left-menu__icon  left-menu-buttons-search" type="button">  
               </button>
           </div>
       </header>
@@ -338,42 +335,42 @@
       <nav class="left-menu-navigator">
           <ul class="left-menu-navigator-list">
               <li>
-                  <a  class="left-menu-navigator-list__link navigator-list--repair" href="#">
+                  <a  class="left-menu-navigator-list__link" href="#">
                         Ремонт техники
                   </a>
               </li>
               <li>
-                  <a  class="left-menu-navigator-list__link navigator-list--services" href="#">
+                  <a  class="left-menu-navigator-list__link" href="#">
                       Услуги и сервисы
                   </a>
               </li>
               <li>
-                  <a  class="left-menu-navigator-list__link navigator-list--corporate-client" href="#">
+                  <a  class="left-menu-navigator-list__link" href="#">
                       Корпоративным клиент
                   </a>
               </li>
               <li>
-                  <a  class="left-menu-navigator-list__link navigator-list--sellers" href="#">
+                  <a  class="left-menu-navigator-list__link" href="#">
                       Продавцам техники
                   </a>
               </li>
               <li>
-                  <a  class="left-menu-navigator-list__link navigator-list--partners" href="#">
+                  <a  class="left-menu-navigator-list__link" href="#">
                       Партнерам
                   </a>
               </li>
               <li>
-                  <a  class="left-menu-navigator-list__link navigator-list--manufacturers" href="#">
+                  <a  class="left-menu-navigator-list__link" href="#">
                       Производителям
                   </a>
               </li>
               <li>
-                  <a  class="left-menu-navigator-list__link navigator-list--service-centers" href="#">
+                  <a  class="left-menu-navigator-list__link" href="#">
                       Наши сервисные центры
                   </a>
               </li>
               <li>
-                  <a  class="left-menu-navigator-list__link navigator-list--contacts" href="#">
+                  <a  class="left-menu-navigator-list__link" href="#">
                     Контакты
                   </a>
               </li>
@@ -383,13 +380,13 @@
   <footer class="footer-left-menu">
       <div class="left-menu__buttons">
           <!--значок трубки -->  
-          <a  class="round-icon round-icon-tablet--call" href="#">  
+          <a  class="round-icon round-icon-call" href="#">  
           </a>
           <!--значок сообщения -->  
-          <a  class="round-icon round-icon-tablet--chat chat" href="#">  
+          <a  class="round-icon round-icon-chat" href="#">  
           </a>
           <!--значок контактов -->  
-          <button  class="round-icon round-icon-tablet--profile" type="button">  
+          <button  class="round-icon round-icon-profile" type="button">  
           </button>
       </div>
       <!--контакты --> 
@@ -397,53 +394,55 @@
       <a class="footer-left-menu__phone" href="tel:88008908900">8 800 890 8900</a>
       <!--языковые иконки --> 
       <div class="lang">
-          <a class="lang--color" href="#">RU</a>
-          <a class="lang--color" href="#">EN</a>
-          <a class="lang--color" href="#">CH</a>
+          <a class="lang__color" href="#">RU</a>
+          <a class="lang__color" href="#">EN</a>
+          <a class="lang__color" href="#">CH</a>
       </div>
   </footer>
     </aside>
 
-    <!---------------правое меню заказать звонок ------------ -->
+    <!--............правое меню заказать звонок.................. -->
     <aside class="right-menu-call right-menu-call-hidden">
       
       <header class="header-right-menu-call">
         <!--значок крестика -->  
-        <button  class="round-icon buttons--cross" type="button">  
+        <button  class="round-icon buttons-cross" type="button">  
         </button>
       </header>
 
       <h2 class="right-menu-call-title">Заказать звонок</h2>
-      
-      <input class="right-menu-call-tel" type="tel" placeholder="Телефон">
-      <div class="right-menu-call-text">Нажимая “отправить”, вы даете согласие на 
-        <span class="right-menu-call-text--style">обработку персональных данных</span>
-         и соглашаетесь с нашей <span class="right-menu-call-text--style"> политикой конфиденциальности</span>
-      </div>
-      <a class="right-menu-call-link" href="#" ></a>
-      
+      <form class="form-right-menu-call">
+        <input class="right-menu-call-tel" type="tel" placeholder="Телефон">
+        <div class="right-menu-call-text">Нажимая “отправить”, вы даете согласие на 
+          <span class="right-menu-call-text__style">обработку персональных данных</span>
+          и соглашаетесь с нашей <span class="right-menu-call-text__style"> политикой конфиденциальности</span>
+        </div>
+        <a class="right-menu-call-link" href="#" ></a>
+    </form>
     </aside>
 
-    <!---------------правое меню обратная связь ------------ -->
+    <!--...............правое меню обратная связь ................ -->
     
     <aside class="right-menu-feedback right-menu-feedback-hidden">
       <header class="header-right-menu-feedback">
         <!--значок крестика -->  
-        <button  class="round-icon buttons--cross" type="button">  
+        <button  class="round-icon buttons-cross" type="button">  
         </button>
       </header>
 
       <h2 class="right-menu-feedback-title">Обратная связь</h2>
-
-      <input class="right-menu-feedback-name" type="text" placeholder="Имя"  >
-      <input class="right-menu-feedback-tel" type="tel" placeholder="Телефон" >
-      <input class="right-menu-feedback-email" type="email" placeholder="Электронная почта">
-      <input class="right-menu-feedback-message" type="text" placeholder="Сообщение">
-      <div class="right-menu-feedback-text">Нажимая “отправить”, вы даете согласие на 
-        <span class="right-menu-feedback-text--style">обработку персональных данных</span>
-         и соглашаетесь с нашей <span class="right-menu-feedback-text--style">политикой конфиденциальности</span>
-      </div>
-      <a class="right-menu-feedback-link" href="#" ></a>
+      <form class="form-right-menu-feedback">
+        <input class="right-menu-input" type="text" placeholder="Имя"  >
+        <input class="right-menu-input" type="tel" placeholder="Телефон" >
+        <input class="right-menu-input" type="email" placeholder="Электронная почта">
+        <input class="right-menu-input" type="text" placeholder="Сообщение">
+        <div class="right-menu-feedback-text">Нажимая “отправить”, вы даете согласие на 
+          <span class="right-menu-feedback-text__style">обработку персональных данных</span>
+          и соглашаетесь с нашей <span class="right-menu-feedback-text__style">политикой конфиденциальности</span>
+        </div>
+        <a class="right-menu-feedback-link" href="#" ></a>
+    </form>
+        
       
     </aside>
     

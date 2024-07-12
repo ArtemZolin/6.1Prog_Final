@@ -1,8 +1,6 @@
-
-
 let leftMenu = document.querySelector('.left-menu');
-let burgerButton = document.querySelectorAll('.round-icon-list-left--burger');
-let buttonsCross = leftMenu.querySelectorAll('.buttons--cross');
+let burgerButton = document.querySelectorAll('.round-icon-list-left-burger');
+let buttonsCross = leftMenu.querySelectorAll('.buttons-cross');
 let non = document.querySelector('.non');
 let rightMenuCall = document.querySelector('.right-menu-call');
 let rightMenuFeedback = document.querySelector('.right-menu-feedback');

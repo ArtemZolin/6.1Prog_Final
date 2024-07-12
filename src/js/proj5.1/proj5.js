@@ -2,7 +2,7 @@ let brandButton = document.querySelector('.brands__button')
 let servicesSoftware = document.querySelector('.services-software')
 let brandsListText = document.querySelector('.brands__button__text')
 let brandsList = document.querySelector('.brands-list')
-let brandButtonBefore = document.querySelector('.brands__button--style')
+let brandButtonBefore = document.querySelector('.brands__button__style')
 brandButton.onclick = function () {
   if (brandsListText.textContent == 'Показать все') {
     brandsListText.textContent = 'Скрыть'

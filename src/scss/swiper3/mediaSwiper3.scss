@@ -1,89 +1,116 @@
 @media (min-width:768px) {
-html{
-  main{
+.prices-services {
+  height: auto;
+
   
-    .prices-services {
+  .services {
+    overflow:visible;
+    height: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    .services-list {
       height: auto;
-      .header-prices-services  {
-        .header-prices-services__title {
-        }
-      }
-      .services {
-        overflow:visible;
-
-        .services-list {
-          height: auto;
-          
-
-          .price-items{
-              width: auto;    
-              height: auto; 
-              display: grid;
-              align-content: center;
-              grid-template-columns: 3fr 1fr 1fr 1fr ;
-              grid-template-rows: 1fr;    
-              grid-template-areas: 
-              "serv-cat-item price-item time-item price-lnk "; 
-              
-              .serv-cat, .price, .time {
-                display: none;
-              }                       
-          }
-
-          .price-desc{
-            width: auto;
-            padding: 14px;
-            display: grid;    
-            grid-template-columns: 3fr 1fr 1fr 1fr ;
-            grid-template-rows: 1fr;
-            grid-template-areas: "serv-cat price time";                                           
-          }
-
-          .price-items:not(:last-child)::before {
-            content: "";
-            z-index: 1;
-            position: relative;
-            width:200%;
-            height: 1px;
-            top: 16px;
-            left: 0px;
-            border-bottom: 1px solid rgba(234, 234, 234, 1); 
-          }
-          
-        
-        .serv-cat{
-            grid-area: serv-cat;
-        }
-        
-        .price {
-            grid-area: price;
-        }
-        
-        .time {
-            grid-area: time;
-        }
-        .price-lnk{ 
-          align-self: self-end;
-        }
-      }     
-    }
-    
-    .prices-services-text{
+      width: 100%; 
+      display: block;
       
-      padding-top: 30px;     
-    }
-    
-    .offer__button {
-      width: 421px;
+      box-sizing: border-box;
       
 
-      .offer__button--style {
+      .price-items{
+          width: 100%;    
+          height: auto; 
+          display: grid;
+          align-content: center;
+          grid-template-columns: 3fr 0.8fr 0.8fr 1fr ;
+          grid-template-rows: 1fr;    
+          grid-template-areas: 
+          "serv-cat-item price-item time-item price-lnk "; 
+          
+          .serv-cat, .price, .time {
+            display: none;
+          }                       
       }
-      .offer__button__text {
+
+      .price-desc{
+        
+        padding: 14px;
+        display: grid;    
+        grid-template-columns: 3fr 0.8fr 0.8fr 1fr ;
+        grid-template-rows: 1fr;
+        grid-template-areas: "serv-cat price time";                                           
       }
+
+      .price-items:not(:last-child)::before {
+        content: "";
+        z-index: 1;
+        position: relative;
+        width:200%;
+        height: 1px;
+        top: 16px;
+        left: 0px;
+        border-bottom: 1px solid rgba(234, 234, 234, 1); 
+      }
+      
+    
+    .serv-cat{
+        grid-area: serv-cat;
     }
+    
+    .price {
+        grid-area: price;
     }
+    
+    .time {
+        grid-area: time;
+    }
+    .price-lnk{ 
+      align-self: self-end;
+    }
+  }     
   }
-  
+
+  .prices-services-text {
+    padding-top: 30px;  
+    width: 481px;   
+  }
+
+  .offer-link {
+    width: 421px; 
+  }
 }
+}
+ 
+
+
+@media (min-width:1440px) {
+.prices-services{
+    
+    .header-prices-services{
+        padding-left: 32px;  
+    }
+
+    .services{
+        padding-right: 32px;
+        padding-left: 32px; 
+
+        .services-list{
+            column-gap: 32px;
+        }
+    }
+    .repair-button {
+        padding-left: 32px;
+
+    }
+
+  .prices-services-text{
+    padding-left: 32px;
+    width: 445px;
+  }
+
+  .offer-link {
+    padding-left: 32px;
+    }
+
+}   
 }

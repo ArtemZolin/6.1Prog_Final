@@ -1,6 +1,6 @@
-let roundIconTabletCall = document.querySelectorAll('.round-icon-tablet--call');
+let roundIconTabletCall = document.querySelectorAll('.round-icon-call');
 let rightMenuCall = document.querySelector('.right-menu-call');
-let buttonsCross = rightMenuCall.querySelectorAll('.buttons--cross');
+let buttonsCross = rightMenuCall.querySelectorAll('.buttons-cross');
 let non = document.querySelector('.non');
 
 

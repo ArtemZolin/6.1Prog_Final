@@ -1,4 +1,4 @@
-.buttons--cross {
+.buttons-cross {
   background-image: url(/src/img/4.1/background/cross.png);
 }
 
@@ -32,7 +32,7 @@
         width: 97px;
         height: 51px;
       }
-      .left-menu__buttons--search {
+      .left-menu-buttons-search {
         background-image: url(../img/4.1/background/search.png);
         margin-left: auto;
       }
@@ -73,37 +73,21 @@
         transition-property: border, background-color;
         transition-duration: 1s;
       }
-      .navigator-list--repair {
-      }
-      .navigator-list--service {
-      }
-      .navigator-list--corporate-client {
-      }
-      .navigator-list--sellers {
-      }
-      .navigator-list--partners {
-      }
-      .navigator-list--manufacturers {
-      }
-      .navigator-list--service-centers {
-      }
-      .navigator-list--contacts {
-      }
     }
   }
   .footer-left-menu {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    //margin-top: auto;
-    
+    justify-content: end;
+    height: 100%;    
     
     .left-menu__buttons {
       display: flex;
       align-items: center;
       width: 100%;
       gap: 15px;
-
+      
       .left-menu__icon {
         width: 40px;
         height: 40px;
@@ -128,13 +112,13 @@
   .lang {
     display: flex;
     column-gap: 10px;
-    .lang--color {
+    .lang__color {
       color: #1b1c21;
       font-weight: 600;
       transition-property: color;
       transition-duration: 1s;
     }
-    .lang--color:hover {
+    .lang__color:hover {
       color: #7e7e82;
       font-weight: 400;
     }

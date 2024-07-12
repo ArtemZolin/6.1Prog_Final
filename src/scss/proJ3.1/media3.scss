@@ -1,12 +1,12 @@
 @media (min-width: 768px) {
-  html {
     .header {
+      gap:10px;
       .round-icon-list-left {
-        .round-icon-left--burger {
+        .round-icon-list-left-burger {
           order: -2;
         }
 
-        .round-icon--divider-1 {
+        .round-icon-divider-1 {
           order: -1;
         }
       }
@@ -37,6 +37,7 @@
         }
 
         .block-1__box {
+          padding-left: 24px;
           .block-1__text {
             height: 170px;
           }
@@ -44,15 +45,12 @@
       }
     }
   }
-}
+
 
 /*--------------------------------------Для PC-------------------------------------*/
 
 @media (min-width: 1440px) {
-  html {
-    body{
-
-    
+   
     .header {
       display: none;
     }
@@ -69,7 +67,7 @@
           background-image: url(/src/img/3.1/background/highlight1.png);
           width: 3px;
           height: 40px;
-          padding-left: 30px;
+          padding-left: 32px;
         }
         .main-button-list-screen-xl {
           width: auto;
@@ -106,9 +104,14 @@
         .navigator-list {
           overflow: visible;
           flex-wrap: wrap;
+          padding-left: 32px;
+        }
+      }
+      .block-1 {
+
+        .block-1__box {
+          padding-left: 32px;
         }
       }
     }
   }
-}
-}

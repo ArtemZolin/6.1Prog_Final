@@ -1,149 +1,150 @@
-    .prices-services {
-      background: #f8f8f8;
-      height: 634px;
-      width: 100%;
-     
+.prices-services {
+  background: #f8f8f8;
+  height: 604px;
+  width: 100%;
   
-      .header-prices-services  {
-        height: 80px;
-        border-top: 1px solid #d9fff5;
-        display: flex;
-        align-items: center;
-        background: linear-gradient(to right, #f8f8f8, #ffffff);
-        padding-left: 20px;
+  .header-prices-services  {
+    height: 80px;
+    border-top: 1px solid #d9fff5;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #f8f8f8, #ffffff);
+    padding-left: 24px;
 
-        .header-prices-services__title {
-          text-transform: uppercase;
-          font-weight: 400;
-          font-size: 16px;
-          color: #7e7e82; 
-        }
+    .header-prices-services__title {
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 16px;
+      color: #7e7e82; 
+    }
+  }
+
+  .services {
+    overflow: hidden;
+    padding-top: 20px;
+    height: 304px;
+    position: relative;
+    font-size: 14px;
+
+    .services-list {
+    
+      .price-items {
+        height: auto;
+        width: 260px;
+        height: 200px;
+        display: grid;
+        padding: 16px;
+        background-color: #FFFFFF;
+        border-radius: 6px;
+        grid-template-columns: 128px 100px ;
+        grid-template-rows: 24px;
+        grid-template-areas: 
+        "serv-cat  serv-cat"
+        "serv-cat-item serv-cat-item"
+        "price price"
+        "price-item price-item" 
+        "time time "
+        "time-item price-lnk ";       
       }
+      
+      .price-desc{
+        display: none;
+    }
 
-      .services {
-        overflow: hidden;
-        padding-top: 20px;
-        height: 304px;
-
-        .services-list {
-          padding-top: 20px;
-        
-          .price-items {
-            height: auto;
-            width: 260px;
-            height: 200px;
-            display: grid;
-            padding: 16px;
-            background-color: #FFFFFF;
-            border-radius: 6px;
-            grid-template-columns: 128px 100px ;
-            grid-template-rows: 24px;
-            grid-template-areas: 
-            "serv-cat  serv-cat"
-            "serv-cat-item serv-cat-item"
-            "price price"
-            "price-item price-item" 
-            "time time "
-            "time-item price-lnk ";       
-          }
-          
-          .price-desc{
+      .price-list{
+        font-size: 14px;
+        padding: 20px;
+        width: 100%;
+        border-radius: 6px;
+      }
+  
+        .price-desc{
             display: none;
         }
-
-          .price-list{
-            font-size: 14px;
-            padding: 20px;
-            width: 100%;
-            border-radius: 6px;
+        
+        .serv-cat{  
+          grid-area: serv-cat;
+          color: #7E7E82; 
+        }
+        
+        .price {
+            grid-area: price;
+            color: #7E7E82;
+        }
+        
+        .time {
+            grid-area: time;
+            color: #7E7E82;
+        }
+        
+        .serv-cat-item{
+            grid-area: serv-cat-item;
+        }
+        
+        .price-item{
+            grid-area: price-item; 
+        }
+        
+        .time-item{
+            grid-area: time-item;
+            height: 24px;
+            justify-content: start;  
+        }
+          .price-lnk{    
+            grid-area: price-lnk;
+            align-self: self-end;
+            justify-self: end;
+            height: 32px;
+    
+            a {
+              display: inline-block;
+              padding:0;
+              background-image: url(/dist/img/6.1/background/order.png);
+              width: 119px;
+              height: 32px;
+            }
           }
-      
-            .price-desc{
-                display: none;
-            }
-            
-            .serv-cat{  
-              grid-area: serv-cat;
-              color: #7E7E82; 
-            }
-            
-            .price {
-                grid-area: price;
-                color: #7E7E82;
-            }
-            
-            .time {
-                grid-area: time;
-                color: #7E7E82;
-            }
-            
-            .serv-cat-item{
-                grid-area: serv-cat-item;
-            }
-            
-            .price-item{
-                grid-area: price-item; 
-            }
-            
-            .time-item{
-                grid-area: time-item;
-                height: 24px;
-                justify-content: start;  
-            }
-              .price-lnk{    
-                grid-area: price-lnk;
-                align-self: self-end;
-                justify-self: end;
-                height: 32px;
-        
-                a {
-                  display: inline-block;
-                  padding:0;
-                  background-image: url(/dist/img/6.1/background/order.png);
-                  width: 119px;
-                  height: 32px;
-                }
-              }
-        }
-        .swiper-pagination-bullet {
-          background: #b5b6bc;
-          width: 12px;
-          height: 12px;
-        }
-        
-        .swiper-pagination {
-          bottom: -470px;
-         }
-      }
-
-      .prices-services-text{
-        padding-bottom: 10px;
-        padding-left: 20px;
-      }
-
-      .offer__button {
-        display: inline-block;
-        width: 192px;
-        height: 55px;
-        font-size: 16px;
-        font-weight: 500;
-        text-align: left;
-        padding-left: 20px;
-        
-        .offer__button__text {
-          font-size: 14px;
-          
-        }
-
-        .offer__button--style {
-          display: inline-block;
-          position: relative;
-          top:10px;
-          background: url(/src/img/6.1/background/more.png);
-          background-repeat: no-repeat;
-          width: 24px;
-          height: 27px;
-        }
-      }
     }
+    .swiper-pagination-bullet {
+      background: #b5b6bc;
+      width: 12px;
+      height: 12px;
+    }
+    
+    .swiper-pagination {
+      top: 260px ;
+      }
+  }
+
+  .prices-services-text{
+    padding-bottom: 10px;
+    padding-left: 24px;
+    box-sizing: border-box;
+  }
+
+  .offer-link {
+    display: inline-block;
+    width: 196px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 24px;
+    
+    .offer-link-text {
+      font-size: 14px;
+      
+    }
+
+    .offer-link-style {
+      display: inline-block;
+      position: relative;
+      top:10px;
+      background: url(/src/img/6.1/background/more.png);
+      background-repeat: no-repeat;
+      width: 24px;
+      height: 27px;
+    }
+  }
+}
   

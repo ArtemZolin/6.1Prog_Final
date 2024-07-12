@@ -1,6 +1,6 @@
 let rightMenuFeedback = document.querySelector('.right-menu-feedback');
-let roundIconTabletChat = document.querySelectorAll('.round-icon-tablet--chat');
-let buttonsCross = rightMenuFeedback.querySelectorAll('.buttons--cross');
+let roundIconTabletChat = document.querySelectorAll('.round-icon-chat');
+let buttonsCross = rightMenuFeedback.querySelectorAll('.buttons-cross');
 let non = document.querySelector('.non');
 
 

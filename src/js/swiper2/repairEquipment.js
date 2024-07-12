@@ -2,7 +2,7 @@ let repairButton = document.querySelector('.repair-button')
 let repairEquipment = document.querySelector('.repair-equipment')
 let repairListText = document.querySelector('.repair-button__text')
 let repairList = document.querySelector('.repair-list')
-let repairButtonBefore = document.querySelector('.repair-button--style')
+let repairButtonBefore = document.querySelector('.repair-button-style')
 repairButton.onclick = function () {
   if (repairListText.textContent == 'Показать все') {
     repairListText.textContent = 'Скрыть'
