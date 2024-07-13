@@ -464,32 +464,20 @@ html {
 .left-menu-hidden {
   display: none; }
 
-.non {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.96);
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 1; }
-
-.non-hidden {
-  display: none; }
-
 @media (min-width: 768px) {
   .left-menu {
     min-height: 750px; } }
 
 @media (min-width: 1440px) {
-  body {
+  .body {
     display: grid;
     grid-template-areas: 'left-menu desk'; }
   .left-menu {
     grid-area: left-menu;
     display: flex;
-    position: static;
-    box-shadow: none; }
+    position: sticky;
+    box-shadow: none;
+    height: 100VH; }
     .left-menu .buttons-cross {
       display: none; }
   .desk {
@@ -939,8 +927,6 @@ html {
   top: 0px;
   z-index: 3;
   background-color: #FFFFFF; }
-  .right-menu-call .right-menu-call-title {
-    padding-left: 15px; }
   .right-menu-call .right-menu-call-title::before {
     content: '';
     border-radius: 0px 6px 6px 0px;
@@ -976,18 +962,18 @@ html {
 
 @media (min-width: 768px) {
   .right-menu-call {
-    width: 320px;
-    height: 100%;
     right: 0;
     z-index: 2; } }
 
 @media (min-width: 1440px) {
   .right-menu-call {
-    border-left: 1px solid #d9fff5; }
+    width: 440px;
+    border-left: 1px solid #d9fff5;
+    padding: 20px; }
   .buttons-cross {
     position: fixed;
-    right: 340px;
-    top: 25px;
+    right: 460px;
+    top: 35px;
     z-index: 1; } }
 
 .right-menu-feedback {
@@ -1006,8 +992,6 @@ html {
   top: 0px;
   z-index: 3;
   background-color: #FFFFFF; }
-  .right-menu-feedback .right-menu-feedback-title {
-    padding: 15px; }
   .right-menu-feedback .right-menu-feedback-title::before {
     content: '';
     border-radius: 0px 6px 6px 0px;
@@ -1043,9 +1027,32 @@ html {
 
 @media (min-width: 768px) {
   .right-menu-feedback {
-    height: 100%;
     right: 0;
     z-index: 2; } }
+
+@media (min-width: 1440px) {
+  .right-menu-feedback {
+    width: 440px;
+    border-left: 1px solid #d9fff5;
+    padding: 20px; }
+  .buttons-cross {
+    position: fixed;
+    right: 460px;
+    top: 35px;
+    z-index: 1; } }
+
+.non {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.96);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1; }
+
+.non-hidden {
+  display: none; }
 
 @font-face {
   font-family: 'TT Lakes';
