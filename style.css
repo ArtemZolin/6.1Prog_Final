@@ -366,7 +366,6 @@ html {
 .left-menu {
   min-width: 320px;
   min-height: 750px;
-  width: 100%;
   height: 100%;
   color: #1b1c21;
   overflow: hidden;
@@ -376,7 +375,8 @@ html {
   left: 0px;
   top: 0px;
   z-index: 2;
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  box-shadow: 16px 0px 52px 0px #0e185033, -2px 0px 4px 0px #454f7e05; }
   .left-menu .header-left-menu {
     padding: 15px; }
     .left-menu .header-left-menu .left-menu__buttons {
@@ -464,12 +464,22 @@ html {
 .left-menu-hidden {
   display: none; }
 
+.non {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.96);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1; }
+
+.non-hidden {
+  display: none; }
+
 @media (min-width: 768px) {
   .left-menu {
-    width: 320px;
-    min-height: 750px;
-    height: 100%;
-    box-shadow: 16px 0px 52px 0px #0e185033, -2px 0px 4px 0px #454f7e05; } }
+    min-height: 750px; } }
 
 @media (min-width: 1440px) {
   body {
@@ -914,6 +924,7 @@ html {
     padding: 32px; } }
 
 .right-menu-call {
+  width: 320px;
   min-width: 320px;
   min-height: 750px;
   height: 100%;
@@ -964,25 +975,15 @@ html {
   display: none; }
 
 @media (min-width: 768px) {
-  .non {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.96);
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 1; }
-  .non-hidden {
-    display: none; }
   .right-menu-call {
     width: 320px;
     height: 100%;
     right: 0;
-    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2), 2px 0px 4px 0px rgba(69, 79, 126, 0.02);
     z-index: 2; } }
 
 @media (min-width: 1440px) {
+  .right-menu-call {
+    border-left: 1px solid #d9fff5; }
   .buttons-cross {
     position: fixed;
     right: 340px;
@@ -990,6 +991,7 @@ html {
     z-index: 1; } }
 
 .right-menu-feedback {
+  width: 320px;
   min-width: 320px;
   min-height: 750px;
   height: 100%;
@@ -1041,10 +1043,8 @@ html {
 
 @media (min-width: 768px) {
   .right-menu-feedback {
-    width: 320px;
     height: 100%;
     right: 0;
-    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2), 2px 0px 4px 0px rgba(69, 79, 126, 0.02);
     z-index: 2; } }
 
 @font-face {
