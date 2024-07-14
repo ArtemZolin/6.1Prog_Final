@@ -20,11 +20,11 @@
 
 .header-all{
     height: 80px;
-    border-top: 1px solid #d9fff5;
+    border-top: 1px solid var(--color-white-alt);
     display: flex;
     align-items: center;
     padding-left: 20px;
-    background: linear-gradient(to right, #f8f8f8, );
+    background: linear-gradient(to right, var(--color-smoky-white), );
 
     .header-all__title{
         text-transform: uppercase;

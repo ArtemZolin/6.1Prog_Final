@@ -38,7 +38,7 @@ html {
     display: flex;
     align-items: center;
     background-color: var(--color-white) ;
-    border-bottom: 1px solid #d9fff5;
+    border-bottom: 1px solid var(--color-white-alt);
     padding: 15px;
     gap: 1px;
 
@@ -86,7 +86,7 @@ html {
   .main {
     display: flex;
     flex-wrap: wrap;
-    background-color: #f8f8f8;
+    background-color: var(--color-smoky-white);
     height: auto;
     width: auto;
     row-gap: 10px;
@@ -112,7 +112,7 @@ html {
   }
   .navigator::before{
     content: '';
-    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, rgba(248, 248, 248, 0.0001) 100%);
     width: 24px ;
     height: 40px;
     background-repeat: no-repeat;

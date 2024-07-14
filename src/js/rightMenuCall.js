@@ -8,15 +8,16 @@ let bodyHidden = document.querySelector('.body');
     let open = function(){
         if (rightMenuCall.classList.contains('right-menu-call-hidden')){
             rightMenuCall.classList.remove('right-menu-call-hidden')
-            
             non.classList.remove('non-hidden');
+
+            bodyHidden.classList.add('desk-hidden'); 
             
         }
             else{
                 rightMenuCall.classList.add('right-menu-call-hidden');
                 non.classList.add('non-hidden');
 
-                
+                bodyHidden.classList.remove('desk-hidden'); 
             };        
         }  
         let openCallBurger768 = function(){

@@ -1,12 +1,12 @@
 .prices-services {
-  background: #f8f8f8;
+  background: var(--color-smoky-white);
   height: 604px;
   width: 100%;
   
   
   .services::before{
     content: '';
-    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, rgba(248, 248, 248, 0.0001) 100%);
     width: 24px ;
     height: 200px;
     background-repeat: no-repeat;
@@ -103,7 +103,7 @@
           }
     }
     .swiper-pagination-bullet {
-      background: #b5b6bc;
+      background: var(--color-blue-crayola);
       width: 12px;
       height: 12px;
     }
