@@ -1,4 +1,5 @@
 .right-menu-call {
+    width: 320px;
     min-width: 320px;
     min-height: 750px;
     height: 100%;
@@ -16,13 +17,7 @@
     top: 0px;
     z-index: 3;
     background-color: #FFFFFF;
-    
-    .header-right-menu-call {
-      }
 
-      .right-menu-call-title{
-        padding-left: 15px;
-      }
       .right-menu-call-title::before {
         content: '';
         border-radius: 0px 6px 6px 0px;

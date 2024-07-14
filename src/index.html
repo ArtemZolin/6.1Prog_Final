@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" >
-   
     <title>Webpack evil</title>
   </head>
-  <body>
+
+  <body class="body">
     <div class="desk">
     <header class="header">
       <div class="round-icon-list-left">
         <!--значок меню ссылка -->
         <button
           class="round-icon round-icon-list-left-burger"
-          type="button"
-        >
+          type="button">
         </button>
         <!--значок логотипа ссылка -->
         <a href="#">
@@ -45,7 +44,6 @@
       </div>
 
       <div class="round-icon-list-right">
-        
         <!--значок оставить заявку  -->
         <a class="round-icon round-icon-list-right-repair" href="#"> </a>
         <!--значок статус  -->
@@ -125,6 +123,15 @@
               партнера, что подтверждает большое количество постоянных клиентов.
               Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
               очередь, советуют нас родным и близким.
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
             </p>
           </div>
           <!--кнопка читать далее  -->
@@ -139,11 +146,12 @@
 
       <!--Prog 5.1 -->
       <section class="services-software">
-        <header class="header-services-software">
-            <h3 class="header-services-software__title">Ремонт техники различных брендов</h3>
+        <header class="header-services-software header-all">
+            <h3 class="header-services-software__title header-all__title">Ремонт техники различных брендов</h3>
         </header>
 
         <nav class="swiper brands" data-mobile = "false"> 
+          <div class="shadow"></div>
             <ul class="swiper-wrapper brands-list">
                 <li class="swiper-slide brands-list__item">
                     <a class="brands-list__link" href="#"><img src="img/5.1/brends/Lenovo.png" alt="brends-Lenovo"></a>
@@ -191,8 +199,8 @@
       </section>
       <!--ВТОРОЙ СЛАЙДЕР ремонт различных видов техники -->
       <section class="repair-equipment">
-        <header class="header-repair-equipment">
-            <h3 class="header-repair-equipment__title">Ремонт различных видов техники</h3>
+        <header class="header-repair-equipment header-all">
+            <h3 class="header-repair-equipment__title header-all__title">Ремонт различных видов техники</h3>
         </header>
 
         <nav class="swiper-repair repair" data-mobile2 = "false"> 
@@ -221,10 +229,9 @@
 
       <!--третий СЛАЙДЕР цены на услуги  -->
       <section class="prices-services">
-        <header class="header-prices-services ">
-            <h3 class="header-prices-services__title">цены на услуги</h3>
+        <header class="header-prices-services header-all">
+            <h3 class="header-prices-services__title header-all__title">цены на услуги</h3>
         </header>
-
         
            <nav class="swiper-services services" data-mobile3 = "false">
               
@@ -285,9 +292,7 @@
                           <li class="price-lnk"><a href=""></a></li>      
                       </ul>                                                                                            
                   </div>
-              <div class="swiper-pagination"></div>  
-                      
-              
+              <div class="swiper-pagination"></div>                
             </nav>
         
         <div class="prices-services-text">
@@ -414,8 +419,9 @@
       <form class="form-right-menu-call">
         <input class="right-menu-call-tel" type="tel" placeholder="Телефон">
         <div class="right-menu-call-text">Нажимая “отправить”, вы даете согласие на 
-          <span class="right-menu-call-text__style">обработку персональных данных</span>
-          и соглашаетесь с нашей <span class="right-menu-call-text__style"> политикой конфиденциальности</span>
+          <a class="right-menu-call-text__style" href="#">обработку персональных данных</a>
+          и соглашаетесь с нашей 
+          <a class="right-menu-call-text__style" href="#"> политикой конфиденциальности</a>
         </div>
         <a class="right-menu-call-link" href="#" ></a>
     </form>
@@ -437,8 +443,8 @@
         <input class="right-menu-input" type="email" placeholder="Электронная почта">
         <input class="right-menu-input" type="text" placeholder="Сообщение">
         <div class="right-menu-feedback-text">Нажимая “отправить”, вы даете согласие на 
-          <span class="right-menu-feedback-text__style">обработку персональных данных</span>
-          и соглашаетесь с нашей <span class="right-menu-feedback-text__style">политикой конфиденциальности</span>
+          <a class="right-menu-feedback-text__style" href="#">обработку персональных данных</a>
+          и соглашаетесь с нашей <a class="right-menu-feedback-text__style" href="#">политикой конфиденциальности</a>
         </div>
         <a class="right-menu-feedback-link" href="#" ></a>
     </form>

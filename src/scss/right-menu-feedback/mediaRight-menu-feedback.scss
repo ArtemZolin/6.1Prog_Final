@@ -1,15 +1,24 @@
 @media (min-width:768px) {
      
     .right-menu-feedback{
-        width: 320px;
-        height: 100%;
         right: 0;
-        box-shadow: 
-        16px 0px 52px 0px rgba(14, 24, 80, 0.2),
-        2px 0px 4px 0px rgba(69, 79, 126, 0.02);
         z-index: 2;
+       
     }
 
 }
 
 
+@media (min-width:1440px) {
+    .right-menu-feedback {
+        width: 440px;
+        border-left: 1px solid #d9fff5;
+        padding:20px;
+    }
+    .buttons-cross{
+        position: fixed;
+        right:460px;
+        top:35px;
+        z-index: 1;
+    }
+}

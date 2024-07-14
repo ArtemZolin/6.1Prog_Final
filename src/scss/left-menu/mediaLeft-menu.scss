@@ -1,19 +1,14 @@
 @media (min-width:768px) {
     
     .left-menu {
-        width: 320px;
         min-height: 750px;
-        height: 100%;
-        box-shadow:
-        16px 0px 52px 0px #0e185033,
-        -2px 0px 4px 0px #454f7e05;
     }
 }
 
 
 @media (min-width:1440px) {
     
-    body{
+    .body{
         display: grid;
         grid-template-areas: 'left-menu desk';
     }
@@ -21,8 +16,9 @@
     .left-menu {
             grid-area: left-menu;
             display: flex;
-            position: static;
+            position: sticky;
             box-shadow: none;
+            height: 100VH;
             
             .buttons-cross{
             display: none;
@@ -30,6 +26,7 @@
     }
     .desk{
         grid-area: desk;
+
     }
    
 }

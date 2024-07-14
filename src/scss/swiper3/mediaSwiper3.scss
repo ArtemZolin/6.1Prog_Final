@@ -2,6 +2,9 @@
 .prices-services {
   height: auto;
 
+  .services::before{
+    display: none;
+  }
   
   .services {
     overflow:visible;

@@ -3,28 +3,45 @@
   height: 234px;
   width: 100%;
 
-  .header-services-software {
-    height: 80px;
-    border-top: 1px solid #d9fff5;
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    background: linear-gradient(to right, #f8f8f8, #ffffff);
+  // .header-services-software {
+  //   height: 80px;
+  //   border-top: 1px solid #d9fff5;
+  //   display: flex;
+  //   align-items: center;
+  //   padding-left: 20px;
+  //   background: linear-gradient(to right, #f8f8f8, #ffffff);
 
-    .header-services-software__title {
-      text-transform: uppercase;
-      font-weight: 400;
-      font-size: 16px;
-      color: #7e7e82;
-    }
+  //   .header-services-software__title {
+  //     text-transform: uppercase;
+  //     font-weight: 400;
+  //     font-size: 16px;
+  //     color: #7e7e82;
+  //   }
+  // }
+  .brands::before{
+    content: '';
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    width: 24px ;
+    height: 81px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;
+    right: 0;
+    z-index: 2;
   }
+
   .brands {
     padding-top: 20px;
+   
 
     .brands-list {
       display: flex;
       height: 154px;
       min-width: 0;
+      
+      
+      
+
 
       .brands-list__item {
         width: 240px;
