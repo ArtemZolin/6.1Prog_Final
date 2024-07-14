@@ -3,21 +3,7 @@
   height: 604px;
   width: 100%;
   
-  // .header-prices-services  {
-  //   height: 80px;
-  //   border-top: 1px solid #d9fff5;
-  //   display: flex;
-  //   align-items: center;
-  //   background: linear-gradient(to right, #f8f8f8, #ffffff);
-  //   padding-left: 24px;
-
-  //   .header-prices-services__title {
-  //     text-transform: uppercase;
-  //     font-weight: 400;
-  //     font-size: 16px;
-  //     color: #7e7e82; 
-  //   }
-  // }
+  
   .services::before{
     content: '';
     background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
@@ -45,7 +31,7 @@
         height: 200px;
         display: grid;
         padding: 16px;
-        background-color: #FFFFFF;
+        background-color: var(--color-white) ;
         border-radius: 6px;
         grid-template-columns: 128px 100px ;
         grid-template-rows: 24px;
@@ -75,17 +61,17 @@
         
         .serv-cat{  
           grid-area: serv-cat;
-          color: #7E7E82; 
+          color: var(--color-grey); 
         }
         
         .price {
             grid-area: price;
-            color: #7E7E82;
+            color: var(--color-grey);
         }
         
         .time {
             grid-area: time;
-            color: #7E7E82;
+            color: var(--color-grey);
         }
         
         .serv-cat-item{

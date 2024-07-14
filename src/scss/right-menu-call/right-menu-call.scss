@@ -6,7 +6,7 @@
     box-shadow: 
     16px 0px 52px 0px #0e185033,
     -2px 0px 4px 0px #454f7e05;
-    color: #1b1c21;
+    color: var(--color-black);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
     //left: 0px;
     top: 0px;
     z-index: 3;
-    background-color: #FFFFFF;
+    background-color: var(--color-white) ;
 
       .right-menu-call-title::before {
         content: '';
@@ -25,8 +25,8 @@
         left: 0;
         width: 4px;
         height: 32px;
-        border: 2px solid #41f6d7;
-        background-color: #41f6d7;
+        border: 2px solid var(--color-aquamarine);
+        background-color: var(--color-aquamarine);
       }
 
       .form-right-menu-call{
@@ -44,7 +44,7 @@
         }
         
         .right-menu-call-text__style{
-          color: rgba(255, 62, 121, 1);
+          color: var(--color-red);
         }
 
         .right-menu-call-link{

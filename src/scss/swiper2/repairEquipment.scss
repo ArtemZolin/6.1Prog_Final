@@ -2,22 +2,7 @@
   background: #f8f8f8;
   height: 322px;
   width: 100% ;
-  
-  // .header-repair-equipment {
-  //   height: 80px;
-  //   border-top: 1px solid #d9fff5;
-  //   display: flex;
-  //   align-items: center;
-  //   background: linear-gradient(to right, #f8f8f8, #ffffff);
-  //   padding-left: 20px;
-
-  //   .header-repair-equipment__title {
-  //     text-transform: uppercase;
-  //     font-weight: 400;
-  //     font-size: 16px;
-  //     color: #7e7e82;
-  //   }
-  // }
+ 
   .repair::before{
     content: '';
     background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
@@ -55,11 +40,11 @@
           height: 160px ;
           padding: 16px;
           border-radius: 10px;
-          background-color: #ffffff;
+          background-color: var(--color-white) ;
           box-sizing: border-box;
           min-width: 0;
           font-weight: 16px;
-          color: #1B1C21;
+          color: var(--color-black);
         }
       }
     }
