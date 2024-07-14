@@ -224,7 +224,7 @@ html {
 
 .navigator::before {
   content: '';
-  background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+  background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, var(--color-black-rgba) 100%);
   width: 24px;
   height: 40px;
   background-repeat: no-repeat;
@@ -502,7 +502,7 @@ html {
   width: 100%; }
   .services-software .brands::before {
     content: '';
-    background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, var(--color-black-rgba) 100%);
     width: 24px;
     height: 81px;
     background-repeat: no-repeat;
@@ -612,7 +612,7 @@ html {
   width: 100%; }
   .repair-equipment .repair::before {
     content: '';
-    background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, var(--color-black-rgba) 100%);
     width: 24px;
     height: 166px;
     background-repeat: no-repeat;
@@ -722,7 +722,7 @@ html {
   width: 100%; }
   .prices-services .services::before {
     content: '';
-    background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, var(--color-black-rgba) 100%);
     width: 24px;
     height: 200px;
     background-repeat: no-repeat;
@@ -1054,11 +1054,24 @@ html {
     top: 35px;
     z-index: 1; } }
 
+:root {
+  --color-white: #ffffff;
+  --color-white-alt:#d9fff5;
+  --color-smoky-white: #f8f8f8;
+  --color-smoky-white-alt:#eaeaea;
+  --color-white-rgba96:rgba(255, 255, 255, 0.96);
+  --color-aquamarine:#41f6d7;
+  --color-blue-crayola:#b5b6bc;
+  --color-grey: #7e7e82;
+  --color-black: #1b1c21;
+  --color-black-rgba:rgba(248, 248, 248, 0.0001);
+  --color-red:rgba(255, 62, 121, 1); }
+
 .non {
   display: block;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.96);
+  background-color: var(--color-white-rgba96);
   position: fixed;
   left: 0;
   top: 0;
@@ -1092,17 +1105,6 @@ html {
 @media (min-width: 1120px) {
   .header-all {
     padding-left: 32px; } }
-
-:root {
-  --color-white: #ffffff;
-  --color-white-alt:#d9fff5;
-  --color-smoky-white: #f8f8f8;
-  --color-smoky-white-alt:#eaeaea;
-  --color-aquamarine:#41f6d7;
-  --color-blue-crayola:#b5b6bc;
-  --color-grey: #7e7e82;
-  --color-black: #1b1c21;
-  --color-red:rgba(255, 62, 121, 1); }
 
 @font-face {
   font-family: 'TT Lakes';
