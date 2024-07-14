@@ -222,6 +222,17 @@ html {
     .main .main-title .main-button-list-screen-xl {
       display: none; }
 
+.navigator::before {
+  content: '';
+  background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+  width: 24px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  position: absolute;
+  right: 0;
+  z-index: 1; }
+
 .navigator {
   overflow: hidden; }
   .navigator .navigator-list {
@@ -312,7 +323,9 @@ html {
     .main .block-1 .block-1__box {
       padding-left: 24px; }
       .main .block-1 .block-1__box .block-1__text {
-        height: 170px; } }
+        height: 170px; }
+  .navigator::before {
+    display: none; } }
 
 /*--------------------------------------Для PC-------------------------------------*/
 @media (min-width: 1440px) {
@@ -499,6 +512,16 @@ html {
       font-weight: 400;
       font-size: 16px;
       color: #7e7e82; }
+  .services-software .brands::before {
+    content: '';
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    width: 24px;
+    height: 81px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;
+    right: 0;
+    z-index: 2; }
   .services-software .brands {
     padding-top: 20px; }
     .services-software .brands .brands-list {
@@ -553,6 +576,8 @@ html {
     .services-software .header-services-software {
       padding-left: 24px;
       height: 56px; }
+    .services-software .brands::before {
+      display: none; }
     .services-software .brands {
       padding-left: 24px;
       padding-top: 24px; }
@@ -609,6 +634,16 @@ html {
       font-weight: 400;
       font-size: 16px;
       color: #7e7e82; }
+  .repair-equipment .repair::before {
+    content: '';
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    width: 24px;
+    height: 166px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;
+    right: 0;
+    z-index: 2; }
   .repair-equipment .repair {
     overflow: hidden;
     padding-top: 20px;
@@ -666,6 +701,8 @@ html {
     .repair-equipment .header-repair-equipment {
       padding-left: 24px;
       height: 56px; }
+    .repair-equipment .repair::before {
+      display: none; }
     .repair-equipment .repair {
       padding-top: 24px;
       padding-left: 24px; }
@@ -719,6 +756,16 @@ html {
       font-weight: 400;
       font-size: 16px;
       color: #7e7e82; }
+  .prices-services .services::before {
+    content: '';
+    background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    width: 24px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    position: absolute;
+    right: 0;
+    z-index: 2; }
   .prices-services .services {
     overflow: hidden;
     padding-top: 20px;
@@ -806,6 +853,8 @@ html {
 @media (min-width: 768px) {
   .prices-services {
     height: auto; }
+    .prices-services .services::before {
+      display: none; }
     .prices-services .services {
       overflow: visible;
       height: auto;
@@ -1053,6 +1102,10 @@ html {
 
 .non-hidden {
   display: none; }
+
+.desk-hidden {
+  overflow: hidden;
+  height: 100vh; }
 
 @font-face {
   font-family: 'TT Lakes';
