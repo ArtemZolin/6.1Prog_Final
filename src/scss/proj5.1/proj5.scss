@@ -5,7 +5,7 @@
 
   .brands::before{
     content: '';
-    background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    background: linear-gradient(270deg, var(--color-smoky-white) 16.84%, var(--color-black-rgba) 100%);
     width: 24px ;
     height: 81px;
     background-repeat: no-repeat;
@@ -23,10 +23,6 @@
       display: flex;
       height: 154px;
       min-width: 0;
-      
-      
-      
-
 
       .brands-list__item {
         width: 240px;

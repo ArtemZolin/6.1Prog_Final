@@ -3,13 +3,11 @@
     .right-menu-feedback{
         right: 0;
         z-index: 2;
-       
     }
-
 }
 
-
 @media (min-width:1440px) {
+ 
     .right-menu-feedback {
         width: 440px;
         border-left: 1px solid var(--color-white-alt);
