@@ -523,7 +523,7 @@ html {
           display: flex;
           justify-content: start;
           align-items: center;
-          border: 1px solid #eaeaea;
+          border: 1px solid var(--color-smoky-white-alt);
           background-image: url(./static/go.png);
           background-repeat: no-repeat;
           background-position: 180px 15px;
@@ -634,7 +634,7 @@ html {
         .repair-equipment .repair .repair-list .repair-list__item .repair-list__link {
           display: flex;
           align-items: start;
-          border: 1px solid #eaeaea;
+          border: 1px solid var(--color-smoky-white-alt);
           background-image: url(./static/go.png);
           background-repeat: no-repeat;
           background-position: 180px 100px;
@@ -957,7 +957,7 @@ html {
       padding-left: 15px;
       width: 288px;
       height: 48px;
-      border: 1px solid #EAEAEA;
+      border: 1px solid var(--color-smoky-white-alt);
       border-radius: 6px;
       color: var(--color-blue-crayola); }
     .right-menu-call .form-right-menu-call .right-menu-call-text__style {
@@ -1022,7 +1022,7 @@ html {
       padding-left: 15px;
       width: 288px;
       height: 48px;
-      border: 1px solid #EAEAEA;
+      border: 1px solid var(--color-smoky-white-alt);
       border-radius: 6px;
       color: var(--color-blue-crayola); }
     .right-menu-feedback .form-right-menu-feedback .right-menu-feedback-text__style {
@@ -1097,6 +1097,7 @@ html {
   --color-white: #ffffff;
   --color-white-alt:#d9fff5;
   --color-smoky-white: #f8f8f8;
+  --color-smoky-white-alt:#eaeaea;
   --color-aquamarine:#41f6d7;
   --color-blue-crayola:#b5b6bc;
   --color-grey: #7e7e82;
